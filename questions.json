@@ -1,0 +1,55 @@
+{
+  "niveau": 1,
+  "questions": [
+    {
+      "question": "Comment s'appelle le héros principal de la série Naruto ?",
+      "choices": ["Sasuke", "Naruto", "Kakashi", "Sakura"],
+      "answer": "Naruto"
+    },
+    {
+      "question": "Quel est le rêve de Naruto Uzumaki ?",
+      "choices": ["Devenir Hokage", "Quitter le village", "Devenir un ninja médecin", "Battre Sasuke"],
+      "answer": "Devenir Hokage"
+    },
+    {
+      "question": "Quel animal est scellé en Naruto ?",
+      "choices": ["Un serpent", "Un renard à neuf queues", "Un loup", "Un dragon"],
+      "answer": "Un renard à neuf queues"
+    },
+    {
+      "question": "Comment s'appelle le village de Naruto ?",
+      "choices": ["Konoha", "Suna", "Kiri", "Iwa"],
+      "answer": "Konoha"
+    },
+    {
+      "question": "Quel est le nom de l'équipe de Naruto ?",
+      "choices": ["Équipe 5", "Équipe 7", "Équipe 10", "Équipe 8"],
+      "answer": "Équipe 7"
+    },
+    {
+      "question": "Quel est le nom du sensei de l'équipe 7 ?",
+      "choices": ["Kakashi", "Jiraya", "Asuma", "Iruka"],
+      "answer": "Kakashi"
+    },
+    {
+      "question": "Quel est le symbole du village de Konoha ?",
+      "choices": ["Une feuille", "Un sabre", "Une flamme", "Un nuage"],
+      "answer": "Une feuille"
+    },
+    {
+      "question": "Comment s'appelle le meilleur ami et rival de Naruto ?",
+      "choices": ["Sasuke", "Shikamaru", "Neji", "Kiba"],
+      "answer": "Sasuke"
+    },
+    {
+      "question": "Quel est le plat préféré de Naruto ?",
+      "choices": ["Ramen", "Sushi", "Dango", "Yakitori"],
+      "answer": "Ramen"
+    },
+    {
+      "question": "Quel est le nom complet de Naruto ?",
+      "choices": ["Naruto Uzumaki", "Naruto Hyuga", "Naruto Nara", "Naruto Uchiha"],
+      "answer": "Naruto Uzumaki"
+    }
+  ]
+    }
