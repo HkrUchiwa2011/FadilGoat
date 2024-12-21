@@ -1,66 +1,35 @@
-<!DOCT<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fadil Uchiwa</title>
-    <link rel="stylesheet" href="style.css">
+  <title>Kenko Calculator</title>
 </head>
 <body>
-    <!-- Écran de bienvenue -->
-    <div id="welcome-screen">
-        <h1>Bienvenue sur le site de Fadil Uchiwa</h1>
-        <button id="explore-btn">Explorer</button>
+  <div class="calculator">
+    <div class="display">0</div>
+    <div class="buttons">
+      <button class="operator" onclick="appendOperator('+')">+</button>
+      <button class="operator" onclick="appendOperator('-')">-</button>
+      <button class="operator" onclick="appendOperator('*')">*</button>
+      <button class="operator" onclick="appendOperator('/')">/</button>
+      <button onclick="appendNumber('7')">7</button>
+      <button onclick="appendNumber('8')">8</button>
+      <button onclick="appendNumber('9')">9</button>
+      <button class="operator" onclick="calculate()">=</button>
+      <button onclick="appendNumber('4')">4</button>
+      <button onclick="appendNumber('5')">5</button>
+      <button onclick="appendNumber('6')">6</button>
+      <button onclick="clearDisplay()">C</button>
+      <button onclick="appendNumber('1')">1</button>
+      <button onclick="appendNumber('2')">2</button>
+      <button onclick="appendNumber('3')">3</button>
+      <button onclick="appendNumber('.')">.</button>
+      <button onclick="appendNumber('0')">0</button>
+      <button onclick="appendOperator('%')">%</button>
     </div>
-
-    <!-- Menu principal -->
-    <div id="main-screen" class="hidden">
-        <h1>Menu Principal</h1>
-        <button id="quiz-btn">Game Quiz</button>
-        <button id="calculator-btn">Calculatrice</button>
-        <button id="snake-btn">Snake</button>
-        <button id="password-btn">Générateur de mot de passe</button>
-        <button id="average-btn">Calcul des Moyennes</button>
-    </div>
-
-    <!-- Quiz -->
-    <div id="quiz-screen" class="hidden">
-        <div class="score">💰 Points : <span id="score">0</span></div>
-        <div class="help">💡 Aide : <span id="help-points">50</span></div>
-        <button id="help-btn">Utiliser une Aide</button>
-        <h2 id="question">Question ici</h2>
-        <div id="answers"></div>
-    </div>
-
-    <!-- Calculatrice -->
-    <div id="calculator-screen" class="hidden">
-        <h2>Calculatrice</h2>
-        <input type="text" id="calc-display" readonly>
-        <div id="calc-buttons"></div>
-    </div>
-
-    <!-- Snake -->
-    <div id="snake-screen" class="hidden">
-        <h2>Snake</h2>
-        <canvas id="snake-game" width="400" height="400"></canvas>
-    </div>
-
-    <!-- Générateur de mot de passe -->
-    <div id="password-screen" class="hidden">
-        <h2>Générateur de Mot de Passe</h2>
-        <input type="number" id="password-length" placeholder="Longueur du mot de passe">
-        <button id="generate-password-btn">Générer</button>
-        <p id="password-result"></p>
-    </div>
-
-    <!-- Calcul des Moyennes -->
-    <div id="average-screen" class="hidden">
-        <h2>Calcul des Moyennes</h2>
-        <input type="text" class="grades" placeholder="Entrez vos notes séparées par des virgules">
-        <button id="calculate-average-btn">Calculer</button>
-        <p id="average-result"></p>
-    </div>
-
-    <script src="script.js"></script>
+  </div>
+<link rel="stylesheet" href="/storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/num0/styles.css">
+  <script src="/storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/num0/script.js"> 
+</script>
+<h2 style="color:#55ff58;border:10px; border-radius:17px;font-family:'Courier New',Courier,monospace; background:#ff9340;font-size:30px"> Par Ali</h2>
 </body>
-</html>￼Enter
+</html>
